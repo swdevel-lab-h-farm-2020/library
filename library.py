@@ -7,7 +7,9 @@ list_of_books = {'Romeo and Juliet': 'William Shakespeare',
 'The Old Man and the Sea' : 'Ernest Hemingway',
 'The Picture of Dorian Gray' : 'Oscar Wilde',
 'A Christmas Carol' : 'Charles Dickens',
-                 }
+'Il nome della rosa' : 'Umberto Eco',
+
+}
 
 
 def check_book(title):
