@@ -7,4 +7,4 @@ check_book("A Farewell to Arms")
 check_book("Intelligenza emotiva")
 check_author("Jane Austen")
 check_author("Gabriele D'Annunzio")
-
+check_author("Umberto Eco")
