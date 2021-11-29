@@ -4,7 +4,11 @@ from library import check_author
 check_book("The Old Man and the Sea")
 check_book("Romeo and Juliet")
 check_book("A Farewell to Arms")
+
 check_book("Cosa vuoi davvero?")
+
+check_book("Intelligenza emotiva")
+
 check_author("Jane Austen")
 check_author("Gabriele D'Annunzio")
-
+check_author("Umberto Eco")

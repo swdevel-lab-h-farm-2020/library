@@ -10,6 +10,12 @@ list_of_books = {'Romeo and Juliet': 'William Shakespeare',
 'Cosa vuoi davvero?' : 'Roberto Re',
                  }
 
+'Il nome della rosa' : 'Umberto Eco',
+'Intelligenza emotiva' : 'Daniel Goleman',
+
+}
+
+
 
 def check_book(title):
     if title in list_of_books:
