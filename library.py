@@ -8,6 +8,7 @@ list_of_books = {'Romeo and Juliet': 'William Shakespeare',
 'The Picture of Dorian Gray' : 'Oscar Wilde',
 'A Christmas Carol' : 'Charles Dickens',
 'Il nome della rosa' : 'Umberto Eco',
+'Intelligenza emotiva' : 'Daniel Goleman',
 
 }
 
