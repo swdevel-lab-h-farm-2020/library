@@ -8,6 +8,9 @@ list_of_books = {'Romeo and Juliet': 'William Shakespeare',
 'The Picture of Dorian Gray' : 'Oscar Wilde',
 'A Christmas Carol' : 'Charles Dickens',
 'The Name Of The Rose' : 'Umberto Eco',
+'Cosa vuoi davvero?' : 'Roberto Re',
+'Intelligenza emotiva' : 'Daniel Goleman',
+}
 
 'Madame Bovary' : 'Gustave Flaubert',
 'Jane Eyre' : 'Charlotte Brontë',
@@ -35,6 +38,7 @@ list_of_books = {'Romeo and Juliet': 'William Shakespeare',
 'Frankenstein' : 'Mary Shelley',
 'American Psycho' : 'Bret Easton Ellis',
 }
+
 
 
 def check_book(title):
