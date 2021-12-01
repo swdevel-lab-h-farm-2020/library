@@ -31,6 +31,32 @@ list_of_books = {'Romeo and Juliet': 'William Shakespeare',
 'Billy Elliot' : 'Melvin Burgess',
 'Il Nome Della Rosa' : 'Umberto Eco',
 'Intelligenza Emotiva' : 'Daniel Goleman',
+'Cosa vuoi davvero?' : 'Roberto Re',
+                 }
+
+'Il nome della rosa' : 'Umberto Eco',
+'Intelligenza emotiva' : 'Daniel Goleman',
+
+'People We Meet on Vacation': 'Emily Henry',
+'Malibu Rising' : 'Taylor Jenkins Reid',
+'The Four Winds' : 'Kristin Hannah',
+'The Last Thing He Told Me' : 'Laura Dave',
+'The Lincoln Highway' : 'Amor Towles',
+'Project Hail Mary' : 'Andy Weir',
+'Klara and the Sun' : 'Kazuo Ishiguro',
+'The Push' : 'Ashley Audrain',
+'Beautiful World, Where Are You' : 'Sally Rooney',
+'Apples Never Fall' : 'Laine Moriarty',
+'Under the Whispering Door' : 'T.J. Klune',
+'Cloud Cuckoo Land' : 'Anthony Doerr',
+'Crying in H Mart: A Memoir' : 'Michelle Zauner',
+'Think Again: The Power of Knowing What You Dont Know' : 'Adam Grant',
+'Between Two Kingdoms: A Memoir of a Life Interrupted' : 'Suleika Jaquad',
+'The Anthropocene Reviewed' : 'John Green',
+'How To Avoid A Climate Disaster: The Solutions We Have and the Breakthroughs We Need' : 'Bill Gates',
+'What Happened To You?: Conversations on Trauma, Resilience, and Healing' : 'Oprah Winfrey',
+'Empire of Pain: The Secret History of the Sackler Dynasty' : 'Patrick Radden Keefe,
+'The Sum of Us: What Racism Costs Everyone and How We Can Prosper Together' : 'Heather McGhee',
 }
 
 
