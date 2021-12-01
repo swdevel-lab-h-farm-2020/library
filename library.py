@@ -7,6 +7,10 @@ list_of_books = {'Romeo and Juliet': 'William Shakespeare',
 'The Old Man and the Sea' : 'Ernest Hemingway',
 'The Picture of Dorian Gray' : 'Oscar Wilde',
 'A Christmas Carol' : 'Charles Dickens',
+'Cosa vuoi davvero?' : 'Roberto Re',
+                 }
+
+'Il nome della rosa' : 'Umberto Eco',
 'Intelligenza emotiva' : 'Daniel Goleman',
 
 'People We Meet on Vacation': 'Emily Henry',
@@ -30,6 +34,7 @@ list_of_books = {'Romeo and Juliet': 'William Shakespeare',
 'Empire of Pain: The Secret History of the Sackler Dynasty' : 'Patrick Radden Keefe,
 'The Sum of Us: What Racism Costs Everyone and How We Can Prosper Together' : 'Heather McGhee',
 }
+
 
 
 def check_book(title):
