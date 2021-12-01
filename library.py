@@ -13,7 +13,7 @@ list_of_books = {'Romeo and Juliet': 'William Shakespeare',
 'Odissey' : 'Omero',
 'Lo Scudo Di Talos' : 'Valerio Massimo Manfredi',
 'Delitto E Castigo' : 'Dostoevskij',
-'I Giorni Dell Eternità' : 'Ken Follet',
+'I Giorni Dell Eternita' : 'Ken Follet',
 'It' : 'Stephen King',
 'Fu Sera Fu Mattina' : 'Ken Follet',
 'La Caduta Dei Giganti' : 'Ken Follet',
@@ -29,12 +29,8 @@ list_of_books = {'Romeo and Juliet': 'William Shakespeare',
 'Matilda' : 'Roald Dahl',
 'La Fabbrica Di Cioccolato' : 'Roald Dahl',
 'Billy Elliot' : 'Melvin Burgess',
-
-                 }
-
-'Il nome della rosa' : 'Umberto Eco',
-'Intelligenza emotiva' : 'Daniel Goleman',
-
+'Il Nome Della Rosa' : 'Umberto Eco',
+'Intelligenza Emotiva' : 'Daniel Goleman',
 }
 
 
