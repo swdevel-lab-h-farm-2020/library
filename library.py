@@ -1,14 +1,85 @@
-list_of_books = {'Romeo and Juliet': 'William Shakespeare',
+list_of_books = {
+'Romeo And Juliet': 'William Shakespeare',
 '1984': 'George Orwell',
-'2001: a Space Odissey': 'Arthur C. Clarke',
-'Pride and Prejudice' : 'Jane Austen',
+'2001: A Space Odissey': 'Arthur C. Clarke',
+'Pride And Prejudice' : 'Jane Austen',
 'The Great Gatsby' : 'F.Scott Fitzgerald',
-'The Lord of the Rings' : 'J. R. R. Tolkien',
-'The Old Man and the Sea' : 'Ernest Hemingway',
-'The Picture of Dorian Gray' : 'Oscar Wilde',
+'The Lord Of The Rings' : 'J. R. R. Tolkien',
+'The Old Man And The Sea' : 'Ernest Hemingway',
+'The Picture Of Dorian Gray' : 'Oscar Wilde',
 'A Christmas Carol' : 'Charles Dickens',
-                 }
-
+'I Promessi Sposi' : 'Alessandro Manzoni',
+'Awake The Giant Within' : 'Tony Robbins',
+'La Divina Commedia' : 'Dante Allighieri',
+'Odissey' : 'Omero',
+'Lo Scudo Di Talos' : 'Valerio Massimo Manfredi',
+'Delitto E Castigo' : 'Dostoevskij',
+'I Giorni Dell Eternita' : 'Ken Follet',
+'It' : 'Stephen King',
+'Fu Sera Fu Mattina' : 'Ken Follet',
+'La Caduta Dei Giganti' : 'Ken Follet',
+'La Cruna Dell Ago' : 'Ken Follet',
+'Mondo Senza Fine' : 'Ken Follet',
+'L Arte Della Guerra' : 'Sun Tzu',
+'Alla Ricerca Del Tempo Perduto' : 'Marcel Proust',
+'La Coscienza Di Zeno' : 'Italo Svevo',
+'Il Processo' : 'Franz Kafka',
+'Uno, Nessuno, Centomila' : 'Luigi Pirandello',
+'Gita Al Faro' : 'Virginia Wolf',
+'Il Processo' : 'Franz Kafka',
+'Matilda' : 'Roald Dahl',
+'La Fabbrica Di Cioccolato' : 'Roald Dahl',
+'Billy Elliot' : 'Melvin Burgess',
+'Il Nome Della Rosa' : 'Umberto Eco',
+'Intelligenza Emotiva' : 'Daniel Goleman',
+'Cosa Vuoi Davvero?' : 'Roberto Re',
+'Intelligenza Emotiva' : 'Daniel Goleman',
+'Madame Bovary' : 'Gustave Flaubert',
+'Jane Eyre' : 'Charlotte Bronte',
+'Little Women' : 'Louisa May Alcott',
+'Anna Karenina' : 'Leo Tolstoy',
+'The Alchemist' : 'Paulo Coelho',
+'The Da Vinci Code' : 'Dan Brown',
+'The Three Musketeers' : 'Alexandre Dumas',
+'Les Miserables' : 'Victor Hugo',
+'War And Peace' : 'Leo Tolstoy',
+'Treasure Island' : ' Robert Louis Stevenson',
+'David Copperfield' : 'Charles Dickens',
+'Charlie And The Chocolate Factory' : 'Roald Dahl',
+'Jane Eyre' : 'Charlotte Bronte',
+'Crime And Punishment' : 'Fyodor Dostoyevsky',
+'Memoirs Of A Geisha' : 'Arthur Golden',
+'Matilda' : 'Roald Dahl',
+'Dracula' : 'Bram Stoker',
+'The Green Mile' : 'Stephen King',
+'It' : 'Stephen King',
+'Thief Of Time' : 'Terry Pratchett',
+'Moby Dick' : 'Herman Melville',
+'Oliver Twist' : 'Charles Dickens',
+'The Witches' : 'Roald Dahl',
+'Frankenstein' : 'Mary Shelley',
+'American Psycho' : 'Bret Easton Ellis',
+'People We Meet On Vacation': 'Emily Henry',
+'Malibu Rising' : 'Taylor Jenkins Reid',
+'The Four Winds' : 'Kristin Hannah',
+'The Last Thing He Told Me' : 'Laura Dave',
+'The Lincoln Highway' : 'Amor Towles',
+'Project Hail Mary' : 'Andy Weir',
+'Klara And The Sun' : 'Kazuo Ishiguro',
+'The Push' : 'Ashley Audrain',
+'Beautiful World, Where Are You' : 'Sally Rooney',
+'Apples Never Fall' : 'Laine Moriarty',
+'Under The Whispering Door' : 'T.J. Klune',
+'Cloud Cuckoo Land' : 'Anthony Doerr',
+'Crying In H Mart: A Memoir' : 'Michelle Zauner',
+'Think Again: The Power Of Knowing What You Dont Know' : 'Adam Grant',
+'Between Two Kingdoms: A Memoir Of A Life Interrupted' : 'Suleika Jaquad',
+'The Anthropocene Reviewed' : 'John Green',
+'How To Avoid A Climate Disaster: The Solutions We Have And The Breakthroughs We Need' : 'Bill Gates',
+'What Happened To You?: Conversations On Trauma, Resilience, And Healing' : 'Oprah Winfrey',
+'Empire Of Pain: The Secret History Of The Sackler Dynasty' : 'Patrick Radden Keefe',
+'The Sum Of Us: What Racism Costs Everyone And How We Can Prosper Together' : 'Heather McGhee',
+}
 
 def check_book(title):
     if title in list_of_books:
@@ -17,12 +88,10 @@ def check_book(title):
         print("Sorry, we do not have {}".format(title))
 
 def check_author(author_name):
-
     found = False
     for title, author in list_of_books.items():
         if author == author_name:
             print("{} wrote {}".format(author_name, title))
             found = True
-
     if not found:
         print("Sorry, {} is not present.".format(author_name))
