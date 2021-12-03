@@ -9,11 +9,8 @@ check_book("Awake The Giant Within")
 check_book("The Old Man and the Sea")
 check_book("Romeo and Juliet")
 check_book("A Farewell to Arms")
-
 check_book("Cosa vuoi davvero?")
-
 check_book("Intelligenza emotiva")
-
 check_book("People We Meet on Vacation")
 check_book("Malibu Rising")
 check_book("The Four Winds")
@@ -34,7 +31,6 @@ check_book("How To Avoid A Climate Disaster: The Solutions We Have and the Break
 check_book("What Happened To You?: Conversations on Trauma, Resilience, and Healing")
 check_book("Empire of Pain: The Secret History of the Sackler Dynasty")
 check_book("The Sum of Us: What Racism Costs Everyone and How We Can Prosper Together")
-
 
 check_author("Jane Austen")
 check_author("Gabriele D'Annunzio")
@@ -58,9 +54,6 @@ check_author("Bill Gates")
 check_author("Oprah Winfrey")
 check_author("Radden Keefe")
 check_author("Heather McGhee")
-
-
-
 check_author("Jane Austen")
 check_author("Gabriele D'Annunzio")
 check_author("Melvin Burgess")
