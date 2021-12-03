@@ -1,4 +1,4 @@
-list_of_books = {'Romeo and Juliet': 'William Shakespeare',
+list_of_books = ('Romeo and Juliet': 'William Shakespeare',
 '1984': 'George Orwell',
 '2001: a Space Odissey': 'Arthur C. Clarke',
 'Pride and Prejudice' : 'Jane Austen',
@@ -34,7 +34,9 @@ list_of_books = {'Romeo and Juliet': 'William Shakespeare',
 'The Witches' : 'Roald Dahl',
 'Frankenstein' : 'Mary Shelley',
 'American Psycho' : 'Bret Easton Ellis',
-}
+)
+
+
 
 
 def check_book(title):
