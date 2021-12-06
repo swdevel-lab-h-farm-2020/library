@@ -81,9 +81,7 @@ def check_book(title):
     if title in list_of_books:
         field = list_of_books[title]
         author = field[0]
-        #genre = field[1]
-        year = field[2]
-        #words = field[3]
+        year = field[1]
         
         print("The title {} is written by {}, and it was published in {}".format(title, author, year,))
         #print ("The title {} is a {} book written by {}, published in year {} and counts {} words".format(title, author, genre, year, words,))
@@ -95,9 +93,20 @@ def check_author(author_name):
     found = False
     for title, field in list_of_books.items():
         author = field[0]
-        year = field [1]
+        year = field[1]
         if author == author_name:
             print("{} published {} in {} ".format(author_name, title, year))
             found = True
     if not found:
         print("Sorry we don't have any book by {} ".format(author_name))
+
+def check_year(year):
+    found = False
+    for title, field in list_of_books.items():
+        author = field[0]
+        pub_year = field[1]
+        if year == pub_year:
+            print("{} published {} in {} ".format(author, title, year))
+            found = True
+    if not found:
+        print("Sorry we don't have any books published in the year {} ".format(year))
