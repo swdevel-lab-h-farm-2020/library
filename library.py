@@ -97,6 +97,7 @@ def check_author(author_name):
         if author == author_name:
             print("{} published {} in {} ".format(author_name, title, year))
             found = True
+
     if not found:
         print("Sorry we don't have any book by {} ".format(author_name))
 
@@ -108,5 +109,6 @@ def check_year(year):
         if year == pub_year:
             print("{} published {} in {} ".format(author, title, year))
             found = True
+
     if not found:
         print("Sorry we don't have any books published in the year {} ".format(year))
