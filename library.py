@@ -95,6 +95,7 @@ def check_author(author_name):
     for title, field in list_of_books.items():
         author = field[0]
         year = field[1]
+
         genre = field[2]
         pages = field[3]
         if author == author_name:
@@ -117,6 +118,7 @@ def check_year(year):
 
     if not found:
         print("Sorry we don't have any books published in the year {} ".format(year))
+
 
 
 def check_genre(book_genre):
